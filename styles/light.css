@@ -7,11 +7,25 @@
   --color-text: rgb(53, 52, 48);
   --main-font: 400;
   --accent-font: 700;
-  background-image: url(../images/cover-image-light.png);
+  --background: url(./images/cover-image-light.png);
+}
+
+@media (prefers-color-scheme: light){
+  ::root{
+  --bg-color: rgb(255, 241, 247);
+  --accent-title-color: rgb(255, 194, 230);
+  --title-color: rgb(53, 52, 48);
+  --accent-color: rgb(255, 141, 203);
+  --accent-color-subtitle: rgb(53, 52, 48);;
+  --color-text: rgb(53, 52, 48);
+  --main-font: 400;
+  --accent-font: 700;
+  --background: url(./images/cover-image-light.png);
+  }
 }
 
 .theme_light .pseudo-element {
-  display: none;
+  visibility: hidden;
 }
 
 .theme_light .header__theme-menu-button_active {

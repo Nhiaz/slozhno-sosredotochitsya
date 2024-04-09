@@ -7,7 +7,8 @@
   --color-text: rgb(241, 178, 206);
   --main-font: 400;
   --accent-font: 700;
-  background-image: url(../images/cover-image-dark.png);
+  --background: url(./images/cover-image-dark.png);
+  --otline-color: rgba(255, 0, 112, 0.4);
 }
 
 
@@ -24,7 +25,7 @@
 }
 
 .theme_dark .header__theme-menu-button:hover {
-  outline: 1px solid rgba(255, 0, 112, 0.4);
+  outline: 1px solid var(--otline-color);
   cursor: pointer;
 }
 
@@ -33,7 +34,7 @@
 }
 
 .theme_dark .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(---accent-color);
+  border-block-end: 1px solid var(--accent-color);
 }
 
 .theme_dark .decorated-zone::before {
