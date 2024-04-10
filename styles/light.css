@@ -1,73 +1,9 @@
-.page.theme_light {
-  --bg-color: rgb(255, 241, 247);
-  --accent-title-color: rgb(255, 194, 230);
-  --title-color: rgb(53, 52, 48);
-  --accent-color: rgb(255, 141, 203);
-  --accent-color-subtitle: rgb(53, 52, 48);
-  --color-text: rgb(53, 52, 48);
-  --main-font: 400;
-  --accent-font: 700;
-  --background: url(../images/cover-image-light.png);
-  --otline-color: rgba(50, 49, 45, 0.4);
-}
-
-.theme_light .pseudo-element {
-  visibility: hidden;
-}
-
-.theme_light .header__theme-menu-button_active {
-  border: 1px solid var(--title-color);
-}
-
-.theme_light .header__theme-menu-button {
-  color: var(--title-color);
-}
-
-.theme_light .header__theme-menu-button:hover {
-  outline: 1px solid var(--otline-color);
-  cursor: pointer;
-}
-
-.theme_light .header__theme-menu-button:focus {
-  outline: none;
-}
-
-.theme_light .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--title-color);
-}
-
-.theme_light .decorated-zone::before {
-  border-block-start: 1px solid var(--title-color);
-  border-inline-end: 1px solid var(--title-color);
-}
-
-.theme_light .decorated-zone::after {
-  border-block-end: 1px solid var(--title-color);
-  border-inline-start: 1px solid var(--title-color);
-}
-
 @media (prefers-color-scheme: light) {
   :root {
-  --bg-color: rgb(255, 241, 247);
-  --accent-title-color: rgb(255, 194, 230);
-  --title-color: rgb(53, 52, 48);
-  --accent-color: rgb(255, 141, 203);
-  --accent-color-subtitle: rgb(53, 52, 48);
-  --color-text: rgb(53, 52, 48);
-  --main-font: 400;
-  --accent-font: 700;
-  --background: url(../images/cover-image-light.png);
-  --otline-color: rgba(50, 49, 45, 0.4);
-  }
-
-  .theme_auto .pseudo-element {
-    visibility: hidden;
-  }
-
-  .page.theme_light {
     --bg-color: rgb(255, 241, 247);
     --accent-title-color: rgb(255, 194, 230);
     --title-color: rgb(53, 52, 48);
+    --visibility: hidden;
     --accent-color: rgb(255, 141, 203);
     --accent-color-subtitle: rgb(53, 52, 48);
     --color-text: rgb(53, 52, 48);
@@ -75,36 +11,19 @@
     --accent-font: 700;
     --background: url(../images/cover-image-light.png);
     --otline-color: rgba(50, 49, 45, 0.4);
+    }
   }
 
-  .theme_auto .header__theme-menu-button_active {
-    border: 1px solid var(--title-color);
-  }
-  
-  .theme_auto .header__theme-menu-button {
-    color: var(--title-color);
-  }
-  
-  .theme_auto .header__theme-menu-button:hover {
-    outline: 1px solid var(--otline-color);
-    cursor: pointer;
-  }
-  
-  .theme_auto .header__theme-menu-button:focus {
-    outline: none;
-  }
-  
-  .theme_auto .header__theme-menu-button:focus-visible {
-    border-block-end: 1px solid var(--title-color);
-  }
-  
-  .theme_auto .decorated-zone::before {
-    border-block-start: 1px solid var(--title-color);
-    border-inline-end: 1px solid var(--title-color);
-  }
-  
-  .theme_auto .decorated-zone::after {
-    border-block-end: 1px solid var(--title-color);
-    border-inline-start: 1px solid var(--title-color);
-  }
+.page.theme_light {
+  --bg-color: rgb(255, 241, 247);
+  --accent-title-color: rgb(255, 194, 230);
+  --title-color: rgb(53, 52, 48);
+  --visibility: hidden;
+  --accent-color: rgb(255, 141, 203);
+  --accent-color-subtitle: rgb(53, 52, 48);
+  --color-text: rgb(53, 52, 48);
+  --main-font: 400;
+  --accent-font: 700;
+  --background: url(../images/cover-image-light.png);
+  --otline-color: rgba(50, 49, 45, 0.4);
 }
