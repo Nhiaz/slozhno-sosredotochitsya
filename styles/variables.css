@@ -7,7 +7,7 @@
   --color-text: rgb(241, 178, 206);
   --main-font: 400;
   --accent-font: 700;
-  --font-family: "IBM Plex Mono", "monospace";
+  --font-family: "IBM Plex Mono", monospace;
   --otline-color: rgba(255, 0, 112, 0.4);
-  --background: url(./images/cover-image-dark.png);
+  --background: url(../images/cover-image-dark.png);
 }
