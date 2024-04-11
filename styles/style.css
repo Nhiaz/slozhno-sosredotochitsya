@@ -91,7 +91,7 @@
 .header__theme-menu-button {
   padding: 2px 12px 3px 13px;
   background-color: transparent;
-  color: var(--accent-color);
+  color: var(--color-text);
   border: none;
   text-transform: lowercase;
   border-block-end: 1px solid transparent;
@@ -223,12 +223,11 @@
   object-position: center;
 }
 
-.img {
+.image-title {
   margin-block-end: 10px;
 }
 
 .section__subtitle {
-  margin: 0;
   margin-block-end: 19px;
 }
 
@@ -304,6 +303,10 @@
     padding-block-start: 170px;
   }
 
+  .subtitle {
+    font-weight: var(--main-font);
+  }
+
   .section {
     margin: 0 10px 0 10px;
     margin-block-end: 80px;
@@ -314,7 +317,7 @@
     margin-block-end: 80px;
   }
 
-  .img {
+  .image-title {
     margin-block-end: 20px;
   }
 
@@ -333,7 +336,12 @@
     gap: 0px 20px;
   }
 
+  .section__subtitle {
+    margin-left: 5px;
+  }
+
   .section__card {
+    margin-left: 5px;
     grid-column: 2 / 4;
   }
 
@@ -351,7 +359,7 @@
     margin-block-end: 60px;
   }
 
-  .how-to {
+  .paragraph {
     max-width: 473px;
   }
 }
@@ -410,7 +418,7 @@
     gap: 20px;
   }
 
-  .how-to {
+  .paragraph {
     max-width: 649px;
   }
 
