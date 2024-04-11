@@ -91,7 +91,7 @@
 .header__theme-menu-button {
   padding: 2px 12px 3px 13px;
   background-color: transparent;
-  color: var(--color-text);
+  color: var(--color-button);
   border: none;
   text-transform: lowercase;
   border-block-end: 1px solid transparent;
@@ -251,6 +251,10 @@
   grid-area: street;
 }
 
+.subtitle {
+  font-weight: var(--main-font);
+}
+
 .footer {
   display: grid;
   place-items: center;
@@ -301,10 +305,6 @@
 
   .header__theme-menu {
     padding-block-start: 170px;
-  }
-
-  .subtitle {
-    font-weight: var(--main-font);
   }
 
   .section {
