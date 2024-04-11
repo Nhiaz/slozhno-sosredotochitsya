@@ -6,6 +6,7 @@
     --visibility: hidden;
     --accent-color: rgb(255, 141, 203);
     --accent-color-subtitle: rgb(53, 52, 48);
+    --corner-color: rgb(53, 52, 48);
     --color-text: rgb(53, 52, 48);
     --main-font: 400;
     --accent-font: 700;
@@ -21,6 +22,7 @@
   --visibility: hidden;
   --accent-color: rgb(255, 141, 203);
   --accent-color-subtitle: rgb(53, 52, 48);
+  --corner-color: rgb(53, 52, 48);
   --color-text: rgb(53, 52, 48);
   --main-font: 400;
   --accent-font: 700;
