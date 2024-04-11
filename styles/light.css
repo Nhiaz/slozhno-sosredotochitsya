@@ -12,8 +12,8 @@
     --accent-font: 700;
     --background: url(../images/cover-image-light.png);
     --otline-color: rgba(50, 49, 45, 0.4);
-    }
   }
+}
 
 .page.theme_light {
   --bg-color: rgb(255, 241, 247);

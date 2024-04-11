@@ -8,7 +8,7 @@
   --corner-color: rgb(255, 0, 112);
   --main-font: 400;
   --accent-font: 700;
-  --font-family: 'IBM Plex mono', Courier, monospace;
+  --font-family: "IBM Plex mono", Courier, monospace;
   --otline-color: rgba(255, 0, 112, 0.4);
   --background: url(../images/cover-image-dark.png);
 }
